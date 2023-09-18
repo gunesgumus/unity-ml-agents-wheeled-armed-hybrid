@@ -135,15 +135,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'The goal of this test is to find some solution other than WheelColliders
-    for the wheels of our creature.
+    for the wheels of our creature. On the left is the reference car which uses WheelColliders.
 
 
-    At first, the configurable joint setup
-    stopped accelerating after some point. However, this was due to the "Default
-    Max Angular Speed" being 7 (Project Settings -> Physics). With a custom script,
-    any Rigidbody''s default max angular speed can be overriden, and that is what
-    is done with the configurable joint''s rigidbody using the MaxAngularSpeedSetter
-    script (have a look at the ConfigurableJointWheel prefab).'
+    At
+    first, the configurable joint setup stopped accelerating after some point. However,
+    this was due to the "Default Max Angular Speed" being 7 (Project Settings ->
+    Physics). With a custom script, any Rigidbody''s default max angular speed can
+    be overriden, and that is what is done with the configurable joint''s rigidbody
+    using the MaxAngularSpeedSetter script (have a look at the ConfigurableJointWheel
+    prefab).'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
